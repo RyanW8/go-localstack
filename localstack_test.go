@@ -31,8 +31,6 @@ import (
 	"sync"
 	"testing"
 	"time"
-
-	"github.com/elgohr/go-localstack"
 )
 
 func TestMain(m *testing.M) {

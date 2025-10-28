@@ -2,6 +2,7 @@ package localstack_test
 
 import (
 	"context"
+	"github.com/RyanW8/go-localstack"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatch"
 	"github.com/aws/aws-sdk-go-v2/service/cloudwatchevents"
@@ -27,8 +28,6 @@ import (
 	"github.com/aws/smithy-go"
 	smithyauth "github.com/aws/smithy-go/auth"
 	smithyendpoints "github.com/aws/smithy-go/endpoints"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
-	"github.com/elgohr/go-localstack"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/url"

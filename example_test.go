@@ -20,8 +20,6 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"log"
-
-	"github.com/elgohr/go-localstack"
 )
 
 func ExampleNewInstance() {

@@ -21,7 +21,7 @@ generate:
 	go generate ./...
 
 install-release-tool:
-	go install github.com/elgohr/semv@latest
+	go install github.com/RyanW8/semv@latest
 
 porcelain:
 	./scripts/porcelain.sh

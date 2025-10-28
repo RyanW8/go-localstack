@@ -1,10 +1,10 @@
 # go-localstack
 
-[![Test](https://github.com/elgohr/go-localstack/workflows/Test/badge.svg)](https://github.com/elgohr/go-localstack/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/elgohr/go-localstack/branch/main/graph/badge.svg)](https://codecov.io/gh/elgohr/go-localstack)
-[![CodeQL](https://github.com/elgohr/go-localstack/workflows/CodeQL/badge.svg)](https://github.com/elgohr/go-localstack/actions/workflows/codeql-analysis.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/elgohr/go-localstack)](https://goreportcard.com/report/github.com/elgohr/go-localstack)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/elgohr/go-localstack)](https://pkg.go.dev/github.com/elgohr/go-localstack)
+[![Test](https://github.com/RyanW8/go-localstack/workflows/Test/badge.svg)](https://github.com/RyanW8/go-localstack/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/RyanW8/go-localstack/branch/main/graph/badge.svg)](https://codecov.io/gh/RyanW8/go-localstack)
+[![CodeQL](https://github.com/RyanW8/go-localstack/workflows/CodeQL/badge.svg)](https://github.com/RyanW8/go-localstack/actions/workflows/codeql-analysis.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/RyanW8/go-localstack)](https://goreportcard.com/report/github.com/RyanW8/go-localstack)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/RyanW8/go-localstack)](https://pkg.go.dev/github.com/RyanW8/go-localstack)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/gojp/goreportcard/blob/master/LICENSE)
 
 Go Wrapper for using [localstack](https://github.com/localstack/localstack) in go testing
@@ -14,7 +14,7 @@ Go Wrapper for using [localstack](https://github.com/localstack/localstack) in g
 Please make sure that you have Docker installed.
 
 ```bash
-go get github.com/elgohr/go-localstack
+go get github.com/RyanW8/go-localstack
 ```
 
 # Usage

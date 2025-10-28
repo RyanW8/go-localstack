@@ -36,7 +36,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elgohr/go-localstack/internal"
+	"github.com/RyanW8/go-localstack/internal"
 )
 
 // Instance manages the localstack

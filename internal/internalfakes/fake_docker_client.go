@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/RyanW8/go-localstack/internal"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/checkpoint"
 	"github.com/docker/docker/api/types/container"
@@ -20,7 +21,6 @@ import (
 	"github.com/docker/docker/api/types/system"
 	"github.com/docker/docker/api/types/volume"
 	"github.com/docker/docker/client"
-	"github.com/elgohr/go-localstack/internal"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

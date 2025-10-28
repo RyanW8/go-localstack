@@ -17,10 +17,10 @@ package localstack
 import (
 	"context"
 	"errors"
+	"github.com/RyanW8/go-localstack/internal/internalfakes"
 	"github.com/docker/docker/api/types/build"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/go-connections/nat"
-	"github.com/elgohr/go-localstack/internal/internalfakes"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 	"io"
